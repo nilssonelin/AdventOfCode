@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Day1 {
@@ -10,7 +9,7 @@ public class Day1 {
         new Day1().program();
     }
 
-    File file = new File("input");
+    File file = new File("input_day1");
     Scanner sc = new Scanner(file);
 
     public void program() throws IOException {
